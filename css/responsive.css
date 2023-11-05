@@ -1,0 +1,82 @@
+
+@media screen and (max-width: 480px) {
+    nav {
+        border: 0 ;
+    }
+    .hero-1 {
+        padding: 20px;
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .hero-1 .item:first-child {
+        justify-content: center;
+    }
+
+    .hero-1 .item:first-child img{
+       width: 100%;
+    }
+    
+    .hero-1 .item:nth-child(2) {
+        margin-top: 20px;
+        align-items: center;
+    }
+    .hero-1 .item:nth-child(2) p.about {
+        text-align: justify;
+    }
+
+    .hero-1 .item:nth-child(2) .desk {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .hero-1 .item:last-child {
+       justify-content: center;
+       align-items: center;
+    }
+    .hero-1 .item:last-child img{
+       width: 100%;
+    }
+
+    .hero-2 {
+        height: auto;
+        padding: 20px;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    
+    .hero-2 .item:first-child h1{
+        transform: initial;
+    }
+    .hero-2 .item:nth-child(2) img{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .hero-2 .item:last-child {
+        flex-direction: row;
+    }
+    .hero-2 .item:last-child img{
+        width: calc(100% / 2);
+    }
+
+    .hero-3 {
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+    .hero-3 .achievement {
+       margin-top: 0;
+       flex-direction: column;
+    }
+    .hero-3 .achievement p.item{
+       margin-top: 20px;
+       padding: 0;
+    }
+    .hero-3 .achievement p:first-child {
+        border-right: none;
+    }
+    .hero-3 .achievement p:last-child {
+        border-left: none;
+    }
+
+}

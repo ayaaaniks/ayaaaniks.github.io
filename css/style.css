@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;1,400;1,500&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+nav {
+    border-bottom: 1px solid black;
+}
+
+nav .navbar-brand {
+    font-weight: bold;
+}
+
+.hero-1 {
+    display: flex;
+    height: 400px;
+}
+
+.hero-1 .item:first-child {
+    flex: 0.7;
+    display: flex;
+    align-items: center;
+}
+
+.hero-1 .item:first-child img {
+    width: 80%;
+}
+.hero-1 .item:nth-child(2) {
+    flex: 2;
+    display: flex;justify-content: center;
+    flex-direction: column;
+}
+.hero-1 .item:nth-child(2) h1 {
+    font-size: 25px;
+    font-family: 'EB Garamond', serif;
+}
+
+.hero-1 .item:nth-child(2) h1 span{
+    font-style: italic;
+}
+.hero-1 .item:nth-child(2) p.about {
+    font-size: 12px;
+}
+.hero-1 .item:nth-child(2) .desk {
+    display: flex;
+    gap: 20px;
+}
+.hero-1 .item:nth-child(2) .desk p{
+    font-size: 12px;
+    text-align: justify;
+}
+.hero-1 .item:last-child {
+    flex: .6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.hero-1 .item:last-child img{
+    width: 70%;
+}
+
+.hero-2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-2 .item:first-child {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-2 .item:first-child h1{
+    margin: 0;
+    font-size: 30px;
+    transform: rotate(-90deg);
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+}
+
+.hero-2 .item:nth-child(2) img{
+    width: 700px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.hero-2 .item:last-child {
+    display: flex;
+    flex-direction: column;
+}
+.hero-2 .item:last-child img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.hero-3 {
+    margin-top: 70px;
+}
+.hero-3 h1{
+    font-size: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+}
+
+.hero-3 .achievement {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.hero-3 .achievement p{
+    flex: 1;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.hero-3 .achievement p:first-child {
+    border-right: 1px solid black;
+}
+.hero-3 .achievement p:last-child {
+    border-left: 1px solid black;
+}
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
+    padding-top: 30px;
+}
+
+footer .item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .item h1 {
+    font-size: 20px;
+}
+
+footer .item ul {
+    padding: 0;
+}
+
+footer .item ul li {
+    list-style-type: none;
+    text-align: center;
+}
+footer .item ul li a{
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    font-size: 13px;
+}
